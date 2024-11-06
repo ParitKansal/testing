@@ -102,4 +102,29 @@ Regression testing is a type of software testing that ensures **existing functio
 | **Usefulness**                    | Less useful for debugging and testing.          | More useful for debugging and testing specific execution scenarios. |
 | **Information Retrieved**         | Retrieves only static information (code structure, control/data dependencies). | Retrieves dynamic information (runtime data and control flow). |
 
+---
+### **Test Minimization**
 
+Test minimization is the process of reducing the number of test cases while maintaining sufficient test coverage. The goal is to keep testing efficient by selecting the minimum set of test cases that still adequately verify the system’s functionality and performance, ensuring quality while saving time and resources.
+
+### Key Objectives:
+1. **Reduce Redundancy**: Eliminate duplicate or unnecessary test cases that do not provide additional value.
+2. **Maintain Coverage**: Ensure that critical functionality, edge cases, and requirements are still tested.
+3. **Optimize Resource Usage**: Save time, effort, and computing resources by executing fewer tests without compromising quality.
+
+### Techniques Used:
+1. **Test Case Prioritization**: Rank test cases based on their importance or likelihood of uncovering defects, allowing more critical tests to be run first.
+2. **Test Suite Reduction**: Identify and remove test cases that do not provide new coverage or test redundant paths.
+3. **Code Coverage Analysis**: Use tools to identify which parts of the code are covered by tests and eliminate unimportant tests.
+4. **Automated Test Selection**: Leverage automation to quickly identify the necessary tests based on code changes, system configuration, or requirements.
+
+### Approaches:
+- **Minimization by Coverage**: Select tests that cover all features and functionality, while eliminating those that cover the same paths.
+- **Minimization by Requirements**: Choose tests that align with critical requirements, ensuring that the main features of the system are adequately tested.
+- **Minimization by Risk**: Focus on the most risky parts of the system (e.g., components with high defect density or complex functionality).
+
+### Benefits:
+1. **Faster Testing**: Reduces the overall number of tests, speeding up the testing process.
+2. **Cost Efficiency**: Saves time, resources, and infrastructure costs by reducing the number of tests needed.
+3. **Maintains Test Quality**: Ensures that important functionality is tested while minimizing redundancy.
+4. **Improved Focus**: Helps testers concentrate on the most critical aspects of the system, improving the chances of catching defects early.
