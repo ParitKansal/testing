@@ -213,5 +213,33 @@ Acceptance testing is the final phase in the software testing process, ensuring 
 | **End Goal**               | To ensure all features and functions of the system work as expected. | To evaluate the system's behavior under different conditions and its performance standards. |
 
 ---
+---
+
+Here’s a concise overview of **Defect Bash** in software testing:
+
+- **Group Activity**: Multiple testers or developers collaborate to identify defects.
+- **Time-Constrained**: Typically lasts a few hours (e.g., 2-4 hours).
+- **Exploratory Testing**: Focuses on free-form testing, not following predefined test cases.
+- **Wide Coverage**: Aims to explore many parts of the application quickly.
+- **No Formal Test Plan**: Informal, based on testers' instincts and experience.
+- **Focus on Defects**: Main goal is to discover as many defects as possible.
+- **Collaborative**: Encourages teamwork and knowledge sharing.
+- **Fun & Competitive**: May include gamification or rewards for finding defects.
+  
+### **Benefits**:
+- Increased defect discovery.
+- Enhanced team collaboration.
+- Focus on critical issues before release.
+- Boosts team morale.
+
+### **Use Cases**:
+- Before software release.
+- After major changes or updates.
+- At the end of a testing cycle.
+
+### **Limitations**:
+- Superficial coverage of certain areas.
+- Defects found may not always be critical.
+
 
 
