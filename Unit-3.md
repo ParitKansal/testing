@@ -213,7 +213,7 @@ Acceptance testing is the final phase in the software testing process, ensuring 
 ---
 ---
 
-Here’s a concise overview of **Defect Bash** in software testing:
+## **Defect Bash**
 
 - **Group Activity**: Multiple testers or developers collaborate to identify defects.
 - **Time-Constrained**: Typically lasts a few hours (e.g., 2-4 hours).
