@@ -117,3 +117,15 @@ The process covers the full software testing lifecycle, from planning to executi
 3. **Limited Test Types**: Cannot automate tests for user-friendliness or multimedia elements.
 4. **Requires Programming Knowledge**: Test scripts need coding skills.
 5. **False Positives/Negatives**: Automation may incorrectly show issues or miss them.
+
+**Popular Automation Tools:**
+
+1. **Selenium**: Used for regression testing, supports multiple languages (Java, Python, Ruby), and integrates with frameworks like JUnit and TestNG.
+2. **QTP (Quick Test Professional)**: Automated functional testing tool for web and desktop apps, uses VB scripting, supports regression testing.
+3. **Sikuli**: GUI-based tool that automates web elements using screenshots, useful for visual testing.
+4. **Appium**: Open-source tool for automating app testing across platforms (iOS, Android, Windows).
+5. **JMeter**: Open-source Java tool for load testing and measuring the performance of applications.
+
+
+---
+
