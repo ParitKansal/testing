@@ -137,6 +137,6 @@
 #### **Reliability**
 - **Definition**: Probability that a software product will perform its intended functions without failure or error under specified conditions and time.
 - **Measuring Reliability**:
-  - **Failure Rate**: \( \text{Failure Rate} = \frac{\text{Number of Failures}}{\text{Time Period}} \)
+  - **Failure Rate**: $\text{Failure Rate} = \frac{\text{Number of Failures}}{\text{Time Period}}$
   - **Mean Time Between Failures (MTBF)**: Average time between failures.
   - **Mean Time to Repair (MTTR)**: Average time required to repair a failure.
