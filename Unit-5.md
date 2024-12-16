@@ -54,3 +54,35 @@ The process covers the full software testing lifecycle, from planning to executi
 5. **Test Reporting**: Summarizes the test process and results for the current cycle.
 
 ---
+
+### Automation Testing
+
+**Automation Testing Types:**
+- **Unit Testing**: Tests the smallest piece of code (unit) in isolation during development.
+- **Integration Testing**: Combines and tests individual software components to check compatibility and functional requirements.
+- **Smoke Testing**: Preliminary check to determine if the software is stable before further testing.
+- **Performance Testing**: Assesses system stability and responsiveness under specific loads.
+- **Regression Testing**: Ensures that changes haven’t negatively affected existing features.
+- **Security Testing**: Identifies security vulnerabilities and risks in the software application.
+- **Acceptance Testing**: Confirms if the software meets user approval and business requirements.
+- **API Testing**: Validates the functionality, security, and reliability of the API.
+- **UI Testing**: Ensures that all elements on the user interface function correctly.
+
+**Test Automation Frameworks:**
+- **Linear Framework**: Simple "record and playback" method where test scripts are created and run for each test. Good for beginners or small teams.
+- **Modular-Based Framework**: Breaks tests into smaller, independent parts (modules), all controlled by a master script. Requires more planning and is better for experienced testers.
+- **Library Architecture Framework**: Builds on the modular framework by organizing tasks into reusable functions. More flexible, but takes longer to set up, so it’s best for testers with more experience.
+
+**Which Tests to Automate:**
+- **Monotonous Tests**: Tests that are repetitive and done often can be automated for future use.
+- **Tests with Multiple Data Sets**: Tests that need many different data sets can be automated to save time.
+- **Business Critical Tests**: Important tests that affect the business can be automated and run regularly.
+- **Determinant Tests**: Tests where it’s easy to know if they pass or fail can be automated.
+- **Tedious Tests**: Tests that require doing the same thing repeatedly can be automated to reduce errors and improve efficiency.
+
+**Automation Testing Process (Short Points):**
+1. **Test Tool Selection**: Choose a tool based on skills, budget, and needs.
+2. **Define Scope**: Ensure framework supports scripts, is low maintenance, and has high ROI.
+3. **Planning, Design, Development**: Install frameworks and design test cases (e.g., NUnit, JUnit).
+4. **Test Execution**: Run tests using the appropriate tool (e.g., NUnit, JUnit).
+5. **Maintenance**: Document test results for future reference.
