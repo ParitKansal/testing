@@ -1,3 +1,6 @@
+# Unit Two
+---
+
 ### Test Cases and Test Suite
 
 - **Test Case**: A test case is a triplet [I, S, O], where:
@@ -17,6 +20,27 @@
 - **Condition Coverage**: Ensures that each condition in decision statements evaluates to both true and false at least once.
 - **Mutation Testing**: Involves making small changes (mutations) to the code to ensure that the test suite can detect the introduced defects.
 - **Data Flow-Based Testing**: Focuses on testing how data is defined, used, and manipulated throughout the system, checking for correct data flow and usage across the program.
+---
+
+### Types of Black Box Testing
+
+- **Equivalence Class Partitioning**: Divides input data into valid and invalid classes to reduce the number of test cases.
+  - Valid Class + Invalid Class 1 + Invalid Class 2 + Invalid Class 3 + ...
+
+- **Boundary Value Analysis**: Focuses on testing at the boundaries of input ranges, where errors often occur.
+
+- **Decision Table**: Represents logical relationships between inputs and expected outputs in a table format.
+
+  | **Field**   | **Case 1** | **Case 2** | **Case 3** | **Case 4** |
+  |-------------|------------|------------|------------|------------|
+  | **Email**   | Valid      | Valid      | Invalid    | Invalid    |
+  | **Password**| Valid      | Invalid    | Valid      | Invalid    |
+  | **Output**  | Success    | Failure    | Failure    | Failure    |
+
+- **State Transition Testing**: Tests the system's behavior for different states and transitions between those states.  
+  ![](https://www.guru99.com/images/2/state_transition.png)
+
+- **Requirement-Based Techniques**: Involves creating test cases based on the specified requirements of the system to ensure they are met.
 
 ---
 
@@ -66,5 +90,34 @@
 - **Test Case 8:** Book Name with Numeric Characters
 - **Test Case 9:** Book Name with Multiple Words
 - **Test Case 10:** Book Exists in the Library (Matching After File Update)
+
+---
+
+
+### Model-Based Testing (MBT)
+
+Model-based testing (MBT) is a software testing technique where models (abstract representations) of the system are used to generate test cases. It helps in automating the test case creation process and ensures that all possible scenarios are considered.
+
+#### Key Points:
+- **Model Creation**: A model is created to represent the system's behavior, which could include state machines, data flow diagrams, or other forms of abstract representations.
+- **Test Case Generation**: From the model, automated tools generate test cases based on predefined criteria, ensuring that the system behaves as expected under various conditions.
+- **Types of Models**:
+  - **Finite State Machines (FSM)**: Represents the system as a set of states and transitions between those states.
+  - **Statecharts**: Extends FSMs by incorporating hierarchical states and actions.
+  - **Activity Diagrams**: Used to describe workflows or processes in the system.
+  - **Sequence Diagrams**: Shows how objects interact in the system over time.
+
+---
+### **Black Box Testing vs. White Box Testing**
+
+| **Aspect**                 | **Black Box Testing**                          | **White Box Testing**                       |
+|----------------------------|------------------------------------------------|---------------------------------------------|
+| **Definition**             | Tests functionality without code knowledge.    | Tests internal code and structure.          |
+| **Focus**                  | System behavior and output.                    | Internal logic and code structure.          |
+| **Testers' Knowledge**     | No code knowledge required.                    | Requires knowledge of the code.             |
+| **Types of Testing**       | Functional, system, integration, etc.          | Unit testing, code coverage, etc.           |
+| **Techniques**             | Equivalence Partitioning, BVA, etc.            | Statement Coverage, Path Coverage, etc.     |
+| **Advantages**             | Simple, does not require code knowledge.       | Thorough, identifies internal defects.      |
+| **Typically Done By**      | Software testers                               | Software developers                         |
 
 ---
