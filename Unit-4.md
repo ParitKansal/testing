@@ -9,7 +9,7 @@ Regression testing is a type of software testing that ensures **existing functio
 2. **Bug Fixes**
 3. **Code Optimization**
 
-### **Process of Regression Testing (Short Points)**
+### **Process of Regression Testing**
 
 1. **Code Changes**: Modify the code (e.g., new features, bug fixes, optimizations).
 2. **Initial Test Failure**: Run existing test cases, and the program fails due to the changes.
