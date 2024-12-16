@@ -84,3 +84,41 @@
 | **Tools Used**       | Testing frameworks, test cases, and automation tools. | Debuggers, code analysis, and logging tools.        |
 
 ---
+
+
+| **Aspect**               | **Metrics**                                  | **Measurement**                              |
+|---------------------------|----------------------------------------------|---------------------------------------------|
+| **Definition**            | Standards or units used for evaluating attributes of a project or process. | Quantitative indication of a specific attribute of a product or process. |
+| **Purpose**               | Evaluate and compare quality or performance using a defined scale. | Provide numerical values for specific attributes. |
+| **Scope**                 | Broader; used for analysis and decision-making. | Narrower; raw data that feeds into metrics. |
+| **Usage**                 | Helps in assessing and improving processes. | Captures specific values for tracking. |  
+
+----
+### **Verification Testing vs. Validation Testing**  
+
+| **Aspect**                  | **Verification Testing**                                                                                     | **Validation Testing**                                                                                 |
+|-----------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Definition**               | Ensures all development elements meet specified standards and protocols.                                   | Ensures the final product meets stakeholder and customer requirements.                               |
+| **Focus**                    | Checks the **process**: Are we building the product **right**?                                             | Checks the **product**: Are we building the **right** product?                                       |
+| **When Performed**           | Conducted at **every stage** of development (design, coding, etc.).                                        | Conducted at the **end** of a module or after the product is fully built.                            |
+| **Examples**                 | Code reviews, walkthroughs, inspections, requirements analysis, and design validation.                    | Unit tests, integration tests, system tests, and User Acceptance Tests (UAT).                        |
+| **Documents Reviewed**       | Requirements specifications, design blueprints, ER diagrams, test cases, traceability matrix, etc.         | Final product deliverables and customer requirements documents.                                     |
+| **Purpose**                  | Ensures the system design and architecture are accurately engineered and error-free.                      | Validates that the product fulfills the true needs and expectations of stakeholders and customers.   |
+| **IEEE Definition**          | Involves studying specifications and checking them against code logic.                                    | Defined as ensuring that the product meets stakeholder’s true needs and expectations (IEEE-STD-610). |
+
+---
+
+### **Manual Testing vs. Automated Testing**  
+
+| **Aspect**           | **Manual Testing**                         | **Automated Testing**                     |
+|----------------------|--------------------------------------------|-------------------------------------------|
+| **Definition**       | Testing without automation tools.          | Testing using specialized tools.          |
+| **Human Involvement**| Requires manual effort.                    | Minimal once automated.                   |
+| **Knowledge**        | No programming required.                   | Requires programming knowledge.           |
+| **Efficiency**       | Time-consuming, error-prone.               | Faster, reliable for repetitive tasks.    |
+| **Cost**             | Low upfront, costly over time.             | High upfront, cost-effective long-term.   |
+| **Use Cases**        | Best for exploratory or usability testing. | Ideal for regression or performance tests.|
+
+---
+
+![](https://i.ibb.co/t2HkNjG/Untitled.png)
