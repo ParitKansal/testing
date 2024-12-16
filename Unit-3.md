@@ -1,4 +1,4 @@
-# Unit - 3
+# Unit-3
 
 ### Different integration strategies
 
