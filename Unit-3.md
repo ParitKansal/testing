@@ -128,33 +128,7 @@ Performance testing is a type of testing that focuses on evaluating how well the
    - **Purpose**: To evaluate the usability of the system’s interface.
    - **Checks**: User experience, ease of navigation, and interaction with the user interface.
 
----
 
-### Example Test Cases for **Performance Testing**
-
-#### 1. System Load Limit Test
-   - **Objective**: Push the integrated system to its maximum load capacity.
-   - **Steps**: Gradually increase the number of active users or transactions until the system reaches its limit.
-
-#### 2. Breakpoint Testing
-   - **Objective**: Stress-test the system to identify the point at which it fails.
-   - **Steps**: Continuously increase the load (e.g., by adding more users, data, or requests) until the system fails.
-
-#### 3. Overload Behavior Test
-   - **Objective**: Test how the system behaves when overloaded.
-   - **Steps**: Exceed system capacity (e.g., by exceeding expected traffic volume or data load).
-
-#### 4. Unusual Execution Order Test
-   - **Objective**: Observe system behavior with non-standard execution sequences.
-   - **Steps**: Execute actions in an unexpected order, such as calling a `receive()` function before `send()`.
-
-#### 5. Large Volume Data Test
-   - **Objective**: Check the system’s response when handling data above expected volumes.
-   - **Steps**: If the system is supposed to handle up to 1000 items, test it with 1001 or more items.
-
-#### 6. Time Measurement for Use Cases
-   - **Objective**: Measure time taken to complete common use cases.
-   - **Steps**: Record the time spent on typical use cases (e.g., login, data retrieval, report generation).
 
 ---
 
