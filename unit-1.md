@@ -122,3 +122,21 @@
 ---
 
 ![](https://i.ibb.co/t2HkNjG/Untitled.png)
+
+---
+
+### Quality and Reliability in Software
+
+#### **Quality**
+- **Definition**: Degree to which a software product conforms to its specifications, requirements, and standards.
+- **Measuring Quality**:
+  - **Defect Density**: Number of defects per unit of size.
+  - **Customer Satisfaction**: Surveys, reviews, ratings, or feedback forms.
+  - **Code Coverage**: Percentage of source code tested by a test suite.
+
+#### **Reliability**
+- **Definition**: Probability that a software product will perform its intended functions without failure or error under specified conditions and time.
+- **Measuring Reliability**:
+  - **Failure Rate**: \( \text{Failure Rate} = \frac{\text{Number of Failures}}{\text{Time Period}} \)
+  - **Mean Time Between Failures (MTBF)**: Average time between failures.
+  - **Mean Time to Repair (MTTR)**: Average time required to repair a failure.
