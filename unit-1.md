@@ -71,3 +71,16 @@
    Program behavior can be specified in natural language, but this can be ambiguous. A more formal method, such as using a **state transition diagram** (or state diagram), helps specify behavior by defining the program's state and the transitions between states, making it clearer and less open to interpretation.
 
 ---
+
+| **Aspect**          | **Testing**                                        | **Debugging**                                         |
+|---------------------|----------------------------------------------------|------------------------------------------------------|
+| **Definition**       | The process of evaluating software to identify defects. | The process of finding and fixing defects in code.  |
+| **Objective**        | To detect errors or bugs in the software.         | To resolve and fix identified issues or bugs.       |
+| **Focus**            | Verifying that the software meets requirements and behaves as expected. | Correcting specific defects or failures in the code. |
+| **Scope**            | Broad, involving tests across the entire system.  | Narrow, focusing on fixing specific issues.         |
+| **Performed By**     | Testers or QA engineers.                          | Developers or programmers.                          |
+| **Timing**           | Occurs during the software development lifecycle (typically before debugging). | Happens after defects are found during testing.    |
+| **Outcome**          | Detection of errors or failures.                  | Fixing the root cause of the defect.                |
+| **Tools Used**       | Testing frameworks, test cases, and automation tools. | Debuggers, code analysis, and logging tools.        |
+
+---
