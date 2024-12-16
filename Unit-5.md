@@ -86,3 +86,19 @@ The process covers the full software testing lifecycle, from planning to executi
 3. **Planning, Design, Development**: Install frameworks and design test cases (e.g., NUnit, JUnit).
 4. **Test Execution**: Run tests using the appropriate tool (e.g., NUnit, JUnit).
 5. **Maintenance**: Document test results for future reference.
+
+
+**Criteria to Select Automation Tool:**
+1. **Ease of Use**: Choose tools with a user-friendly interface and minimal learning curve.
+2. **Support for Multiple Browsers**: Ensure the tool supports cross-browser testing.
+3. **Flexibility**: Select a tool that suits the type of testing needed.
+4. **Ease of Analysis**: Choose tools with user-friendly reporting and analysis features.
+5. **Cost of Tool**: Consider budget and tool efficiency when choosing between free or paid tools.
+6. **Availability of Support**: Check if the tool offers community or customer support and training resources.
+
+**Best Practices for Test Automation:**
+1. **Plan Self-Contained Test Cases**: Ensure tests are clear, well-written, and easy to understand.
+2. **Plan Test Execution Order**: Arrange tests so one creates the state for the next, ensuring smooth execution.
+3. **Use Automatic Scheduling Tools**: Choose tools that can schedule tests automatically.
+4. **Set Alarms for Test Failures**: Use tools that alert you to test failures and decide whether to continue or abort.
+5. **Reassess Test Plans Regularly**: Update test plans as the application evolves to avoid testing outdated features.
