@@ -6,11 +6,43 @@
   - **O**: Expected output from the system
 
 - **Test Suite**: A collection of test cases designed to verify the software's functionality and behavior.
+  
+---
+
+### Types of White Box Testing
+
+- **Statement Coverage**: Ensures that every statement in the code is executed at least once during testing.
+- **Branch Coverage**: Ensures that each possible branch (true/false) in the decision points (if-else statements) is executed at least once.
+- **Path Coverage**: Ensures that all possible paths through the code are tested, including all combinations of branches.
+- **Condition Coverage**: Ensures that each condition in decision statements evaluates to both true and false at least once.
+- **Mutation Testing**: Involves making small changes (mutations) to the code to ensure that the test suite can detect the introduced defects.
+- **Data Flow-Based Testing**: Focuses on testing how data is defined, used, and manipulated throughout the system, checking for correct data flow and usage across the program.
 
 ---
 
+| **Aspect**              | **Static Testing**                            | **Dynamic Testing**                            |
+|-------------------------|-----------------------------------------------|-----------------------------------------------|
+| **Definition**           | Testing without executing the code.           | Testing by executing the code.                |
+| **Type**                 | Verification                                  | Validation                                    |
+| **Techniques**           | Code reviews, walkthroughs, static analysis tools. | Unit testing, integration testing, system testing. |
+| **Purpose**              | To verify if the software meets specified requirements and design. | To validate if the software functions as expected in real-world scenarios. |
+| **Advantage**            | Identifies coding errors, design flaws, and ensures standards compliance. | Detects runtime errors, functional defects, and performance issues. |
 
+### **Static Testing**
 
+- **Review**:
+  - **Informal Review**: Casual examination of the software.
+  - **Walkthrough**: Step-by-step explanation by the author.
+  - **Peer Review**: Review by colleagues for errors.
+  - **Inspection**: Formal, structured review with checklists.
+- **Static Analysis**:
+  - **Data Flow**: Analyzes data movement and usage.
+  - **Control Flow**: Examines the flow of control in the code.
+  - **Cyclomatic Complexity**: Measures code complexity based on independent paths.
+
+---
+
+  
 ### Black-Box Test Suite for Palindrome Function
 - **Test Case 1:** Normal Palindrome String
 - **Test Case 2:** Palindrome with Mixed Case
