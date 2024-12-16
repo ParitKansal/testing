@@ -1,3 +1,16 @@
+### Test Cases and Test Suite
+
+- **Test Case**: A test case is a triplet [I, S, O], where:
+  - **I**: Input data to the system
+  - **S**: System state at the time of input
+  - **O**: Expected output from the system
+
+- **Test Suite**: A collection of test cases designed to verify the software's functionality and behavior.
+
+---
+
+
+
 ### Black-Box Test Suite for Palindrome Function
 - **Test Case 1:** Normal Palindrome String
 - **Test Case 2:** Palindrome with Mixed Case
