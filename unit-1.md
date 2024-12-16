@@ -140,3 +140,39 @@
   - **Failure Rate**: $\text{Failure Rate} = \frac{\text{Number of Failures}}{\text{Time Period}}$
   - **Mean Time Between Failures (MTBF)**: Average time between failures.
   - **Mean Time to Repair (MTTR)**: Average time required to repair a failure.
+ 
+----
+
+### **Software Defect Tracking - Key Points**
+
+- **Goal**: Identify, log, and track defects throughout the development lifecycle.
+- **Responsibilities**:
+  - Evaluate and prioritize defects for developers.
+  - Test fixes to ensure no new issues arise.
+  
+- **Defect Tracker Benefits**:
+  - **Documentation**: Tracks defect details (discovery, issue specifics).
+  - **Efficiency**: Prioritizes defects based on urgency.
+  - **Cause Analysis**: Helps identify root causes with logs and reports.
+  - **Change Logging**: Records fixes and updates for retesting.
+  - **Metrics**: Collects defect data to prevent future issues.
+  - **Workflow**: Optimizes testing process, saving time.
+ 
+------
+
+### **Defect Tracking Tools in Software Testing**
+1. **JIRA**  
+   - Easy to use.
+   - Works on multiple platforms (Windows, Linux, macOS).
+   - Supports various programming languages (e.g., Python, Java).
+2. **SmartSheet**  
+   - Spreadsheet-like tool.
+   - Manages projects, calendars, and milestones.
+3. **Userback**  
+   - Allows visual defect reports with annotations.
+   - Makes it easy for teams to understand issues.
+4. **Bugzilla**  
+   - Open-source tool.
+   - Provides reports, screenshots, and video logs.
+
+---
