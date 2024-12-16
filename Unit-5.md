@@ -102,3 +102,18 @@ The process covers the full software testing lifecycle, from planning to executi
 3. **Use Automatic Scheduling Tools**: Choose tools that can schedule tests automatically.
 4. **Set Alarms for Test Failures**: Use tools that alert you to test failures and decide whether to continue or abort.
 5. **Reassess Test Plans Regularly**: Update test plans as the application evolves to avoid testing outdated features.
+
+**Advantages of Automation Testing:**
+1. **Simplifies Execution**: Runs unattended, with results monitored at the end.
+2. **Improves Reliability**: Ensures consistent focus on all areas.
+3. **Increases Coverage**: Tests more features and complex applications.
+4. **Reduces Human Error**: Minimizes mistakes in testing.
+5. **Saves Time and Money**: Efficient long-term cost savings.
+6. **Faster Defect Detection**: Identifies issues early for quicker fixes.
+
+**Disadvantages of Automation Testing:**
+1. **High Initial Cost**: Requires significant time and money investment for tools and setup.
+2. **Not 100% Automatable**: Some test cases need human intervention (e.g., design, usability).
+3. **Limited Test Types**: Cannot automate tests for user-friendliness or multimedia elements.
+4. **Requires Programming Knowledge**: Test scripts need coding skills.
+5. **False Positives/Negatives**: Automation may incorrectly show issues or miss them.
